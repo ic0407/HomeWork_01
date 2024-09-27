@@ -6,17 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Black&White</title>
     <meta http-equiv="X-UA-Compatible" type="text/css" />
-    <link rel="stylesheet" href="Homework01.css" type="text/css" /> 
+    <!-- <link rel="stylesheet" href="Homework01.css" type="text/css" />  -->
+    <link rel="stylesheet" href="Homework01.css">
 </head>
 
 <body>
     <div id="main">
         <!--header Begin-->
         <div id="header">
-            <h1><img alt="BLACK & WHITE logo" src="images/waves.jpg"></h1>
+            <h1></h1>
             <div id="logo">
-                <h1><a href="" id="black">BLACK</a> &amp; <a href="#" id="white"> WHITE</a></h1>
-                <h2><a href="" id="metamorph">Company Slogan Goes Here</a></h2>
+                <h1><a class="Black">BLACK</a> &amp; <a class="white"> WHITE</a></h1>
+                <h2><a class="white">Company Slogan Goes Here</a></h2>
             </div>
         </div>
         <!--header ends-->
@@ -31,11 +32,56 @@
             </ul>
         </div>
 
+        <article id="Contect">
+            <div id="left">
+                <div id="LeftUP">
+                    <h2>Customer Login</h2>
+                    <ul id="port">
+                        <form action="/action_page.php">
+                            <label for="fname">Login Name:</label><br>
+                            <input type="text" id="fname" name="fname" value=""><br>
+                            <label for="lname">Password:</label><br>
+                            <input type="text" id="lname" name="lname" value=""><br><br>
+                            <input type="submit" value="Login">
+                        </form>
 
-        <article id="mainContect">
+                        <p><a href="#footer">Forgot your passard?</a></p>
 
-            <section id="Contect"> <!--右欄-->
-                <h1>METAMORPHOSIS DESIGN</h1>
+                    </ul>
+
+                </div>
+                <div id="LeftDOWN">
+                    <h2>Cimpany News</h2>
+
+                    <ul id="port">
+
+                        <h2>June 23, 2011</h2>
+                        <p><a href="https://www.nutc.edu.tw/">Inmous in, lacus. Duis tampor posuare cram,
+                                Suspendisse vel tellus guis nunt malesunda porta</a></p>
+
+                        <h2>March 4, 2011</h2>
+                        <p><a href="https://www.nutc.edu.tw/">Nulla id magna sed dolor soliciturn lapreat temous in.
+                                Lacus Quis tempor posuere</a></p>
+
+                        <h2>February 18, 2011</h2>
+                        <p><a href="https://www.nutc.edu.tw/">Lorem ipsum dolor sit amet.
+                                SonsActater ad ciscing al.</a></p>
+
+
+                        <h2>February 12, 2011</h2>
+                        <p><a href="https://www.nutc.edu.tw/">Ser dolor solicitudin lagree! samous in lacus, quis lemoor
+                                posuare diam. Suspendisse</a></p>
+
+
+                        <h2>February 1, 2011</h2>
+                        <p><a href="https://www.nutc.edu.tw/">Insum dolor sit amel consecteter ad piscine enc...</a></p>
+
+                    </ul>
+                </div>
+            </div>
+
+            <div id="right">
+                <h2>METAMORPHOSIS DESIGN</h2>
                 <p> Dolor sit amet,consectetuer adipiscing elit,sedd diam nonummy nibh euismod tincidunt ut laoreet
                     dolore magna aliquam erat.
                     Lorem ipsum dolor sit amet,consectetuer adipiscing elit sed diam nonummy nibh euismod tincidunt ut
@@ -44,7 +90,7 @@
                     Duis autem autem vel eum iriure dolor in hendnit in vulpuate velit esse moiestie consequat...
                 </p>
 
-                <h1>FREE WEBSITE TEMPLATES</h1>
+                <h2>FREE WEBSITE TEMPLATES</h2>
                 <p> Sit amet consectetuer adipiscing elit,sed diam nonmmy nibh euismod
                     tincidnut ut laoreet dolore magna aliquam erat.
 
@@ -55,63 +101,18 @@
                     eum irure dolor in henderit in vulputate velit esse molestie consequat...
                 </p>
 
-                <h1>FLASH TEMPLATES</h1>
-                <p> Consectetuer adipiscing elit, sed diam nonummy nibh euismod incidunt ut laoreet dolore magna aliquam
-                    erat.
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit sed diam nonummy nich euismod tincidunt ut
-                    laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
-                    ullamcorper suscipit loboris nisi ut aliquip ex ea commodo consequat.
-                    Duis autem vel eum inure dolor in hendrent in vulputate velit esse moleste consequat...
-                </p>
-
-                <ul id="link-list">
-                    <li><a title="View our portfolio" href="#">View our full portfolio</a></li>
-                    <li><a title="Contact Red Lantern" href="#">Contact Red Lantern</a></li>
-                </ul>
-            </section>
-
-            <section id="sidebar"> <!--左欄-->
-                <h1>Customer Login</h1>
-                <ui id="port">
-                    <form action="/action_page.php">
-                        <label for="fname">Login Name:</label><br>
-                        <input type="text" id="fname" name="fname" value=""><br>
-                        <label for="lname">Password:</label><br>
-                        <input type="text" id="lname" name="lname" value=""><br><br>
-                        <input type="submit" value="Login">
-                    </form>
-
-                    <p><a href="https://www.nutc.edu.tw/">Forgot your passard?</a></p>
-
-                </ui>
-
-                <h1>Cimpany News</h1>
-                <ui id="port">
-
-                    <h1>June 23, 2011</h1>
-                    <p><a href="https://www.nutc.edu.tw/">Inmous in, lacus. Duis tampor posuare cram,
-                            Suspendisse vel tellus guis nunt malesunda porta</a></p>
-
-                    <h1>March 4, 2011</h1>
-                    <p><a href="https://www.nutc.edu.tw/">Nulla id magna sed dolor soliciturn lapreat temous in.
-                            Lacus Quis tempor posuere</a></p>
-
-                    <h1>February 18, 2011</h1>
-                    <p><a href="https://www.nutc.edu.tw/">Lorem ipsum dolor sit amet.
-                            SonsActater ad ciscing al.</a></p>
-
-
-                    <h1>February 12, 2011</h1>
-                    <p><a href="https://www.nutc.edu.tw/">Ser dolor solicitudin lagree! samous in lacus, quis lemoor
-                            posuare diam. Suspendisse</a></p>
-
-
-                    <h1>February 1, 2011</h1>
-                    <p><a href="https://www.nutc.edu.tw/">Insum dolor sit amel consecteter ad piscine enc...</a></p>
-
-                </ui>
-
-            </section>
+                <h2>FLASH TEMPLATES</h1>
+                    <p> Consectetuer adipiscing elit, sed diam nonummy nibh euismod incidunt ut laoreet dolore magna
+                        aliquam
+                        erat.
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit sed diam nonummy nich euismod tincidunt
+                        ut
+                        laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
+                        tation
+                        ullamcorper suscipit loboris nisi ut aliquip ex ea commodo consequat.
+                        Duis autem vel eum inure dolor in hendrent in vulputate velit esse moleste consequat...
+                    </p>
+            </div>
         </article>
 
 
